@@ -13,14 +13,6 @@ plus+codesはGoogleが作ったため、GoogleMapとの互換性がある。
 コードの構成は、地域コード、都市コード、街区コード、建物コードからなる。
 例えば8Q7XPQ3C+J88というコードの場合は、8Q7Xが地域コード（100×100km）、PQが都市コード（5×5km）、3Cが街区コード（250×250m）、+以降のJ88は建物コード（14×14m）を意味している。
 つまり精度は正方形で14×14mがマックス。
-* 8Q7X : 約100Km四方の範囲指定（Region Code)
-![2017-12-14 17 41 09](https://user-images.githubusercontent.com/13360878/33983058-20013e94-e0f6-11e7-86a2-6d46fdaf7504.png)
-* MQ : 5Km四方の範囲指定(City Code)
-![2017-12-14 17 41 21](https://user-images.githubusercontent.com/13360878/33983072-27a85f9c-e0f6-11e7-938f-fed15fda6acd.png)
-* XC : 250m四方の範囲指定(Neighbourhood Code)
-![2017-12-14 17 41 31](https://user-images.githubusercontent.com/13360878/33983089-37b4581e-e0f6-11e7-84a6-af583aa56bd7.png)
-* FMX : 14m四方の範囲指定(Building Code)(Door Code)
-![2017-12-14 17 41 49](https://user-images.githubusercontent.com/13360878/33983133-59caff5c-e0f6-11e7-94af-dd6226840245.png)
 
 ## 文字数
 12文字　（例）8Q7XPQ3C+J88
